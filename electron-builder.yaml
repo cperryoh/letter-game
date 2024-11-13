@@ -1,0 +1,12 @@
+appId: "io.github.cperryoh.letter-game"
+productName: "Letter Game"
+copyright: "Copyright (c) 2023 RBFraphael"
+win:
+  target: ["dir", "portable", "zip"]
+  icon: "app/icon.ico"
+linux:
+  target: ["dir", "appimage", "zip"]
+  icon: "app/icon.png"
+mac:
+  target: ["dir", "dmg", "zip"]
+  icon: "app/icon.icns"
